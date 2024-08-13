@@ -1,0 +1,30 @@
+{
+    "name": "Zoom Bookmarks",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Bookmarks app that allows you to save and open your Zoom links. Made with a tutorial by Hackclub.",
+    "icons": {
+        "48": "icon.png"
+    },
+    "default_locale": "en",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Zoom Bookmarks",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "chrome://favicon/",
+        "clipboardRead",
+        "clipboardWrite",
+        "contentSettings",
+        "contextMenus",
+        "cookies",
+        "idle",
+        "management",
+        "notifications",
+        "tabs",
+        "background",
+        "alarms",
+        "storage"
+    ]
+}
